@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-image: url('img/geig.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1, h2, h3 {
+	color: #d5d5d5;
+}
+
+
+#tapahtumat1 {
+	padding-top: 50px;
+	
+}
+#tapahtumat {
+	padding-top: 50px;
+	padding-bottom: 10%;
+	padding-right: 5%;
+	text-shadow: 2px 2px 15px #000;
+	font-size: 95%;
+}
+
+
+.container {
+	margin-top: 40px;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 2rem;
+	border: 1px solid #fff;
+	text-shadow: 1px 1px #000;
+}
+
+
+
+.fa-facebook {
+  color: #000;
+  font-size: 2em!important;
+ 
+}
+.fa-instagram {
+  color: #000;
+   font-size: 2em!important;
+   
+}
+
+.fa-facebook:hover {
+  color: #d5d5d5;
+} 
+.fa-instagram:hover {
+  color: #d5d5d5;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    .social a {
+      font-size: 4em;
+      padding: 2rem;
+    }
+
+  }
+@media (max-width: 768px) {
+  
+
+
+.display-4 {
+  font-size: 200%;
+}
+.social a {
+      font-size: 2.5em;
+      padding: 1.2rem;
+    }
+}
+@media (max-width: 576px) {
+
+
+.display-4 {
+  font-size: 160%;
+}
+.social a {
+      font-size: 2em;
+      padding: .7rem;
+    }
+}
+
+
+/*---Firefox Bug Fix --*/
+
+
+/*--- Fixed Background Image --*/
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
